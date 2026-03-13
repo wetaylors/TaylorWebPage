@@ -37,63 +37,30 @@
   <!-- Main Content -->
   <main class="main-content">
 
-    <!-- Category Filters -->
-    <div class="gallery-filters">
-      <button class="filter-btn active" data-filter="all">All</button>
-      <button class="filter-btn" data-filter="family">Family</button>
-      <button class="filter-btn" data-filter="holidays">Holidays</button>
-      <button class="filter-btn" data-filter="milestones">Milestones</button>
-    </div>
+    <section class="content-section">
+      <h2>Family Photo Albums</h2>
+      <p>Browse and contribute to our family photo collections. Each album is hosted on Google Photos -- anyone with the link can view photos and add their own.</p>
+    </section>
 
-    <!-- Gallery Grid -->
-    <div class="gallery-grid">
+    <!-- Album Cards -->
+    <div class="card-grid">
 
-      <div class="gallery-item" data-category="family" data-full="images/placeholder.jpg" data-caption="Family gathering">
-        <div class="gallery-placeholder">Family gathering photo</div>
-        <div class="gallery-caption">Family Gathering</div>
+      <div class="card">
+        <span class="card-icon">&#128247;</span>
+        <h3>The Mike and Vicki Taylor Family</h3>
+        <p>Photos from the Mike and Vicki Taylor family. Click below to view or add your own photos.</p>
+        <a href="https://photos.google.com/share/AF1QipPsJcncENNkujVekpp27XBJkHwEsaUsJvP0hXA9u07oVnIOaPCrxyPh7enPQhHjZA" class="btn btn-primary" target="_blank" rel="noopener">View &amp; Add Photos</a>
       </div>
 
-      <div class="gallery-item" data-category="holidays" data-full="images/placeholder.jpg" data-caption="Holiday celebration">
-        <div class="gallery-placeholder">Holiday celebration photo</div>
-        <div class="gallery-caption">Holiday Celebration</div>
-      </div>
-
-      <div class="gallery-item" data-category="milestones" data-full="images/placeholder.jpg" data-caption="A special milestone">
-        <div class="gallery-placeholder">Milestone photo</div>
-        <div class="gallery-caption">Special Milestone</div>
-      </div>
-
-      <div class="gallery-item" data-category="family" data-full="images/placeholder.jpg" data-caption="Summer memories">
-        <div class="gallery-placeholder">Summer memories photo</div>
-        <div class="gallery-caption">Summer Memories</div>
-      </div>
-
-      <div class="gallery-item" data-category="holidays" data-full="images/placeholder.jpg" data-caption="Christmas morning">
-        <div class="gallery-placeholder">Christmas morning photo</div>
-        <div class="gallery-caption">Christmas Morning</div>
-      </div>
-
-      <div class="gallery-item" data-category="milestones" data-full="images/placeholder.jpg" data-caption="Graduation day">
-        <div class="gallery-placeholder">Graduation day photo</div>
-        <div class="gallery-caption">Graduation Day</div>
-      </div>
+      <!-- Add more family album cards here as needed -->
 
     </div>
 
     <div style="text-align: center; margin-top: 3rem; color: var(--charcoal-light);">
-      <p><em>More photos will be added soon. Check back for updates!</em></p>
+      <p><em>More family albums will be added as they become available.</em></p>
     </div>
 
   </main>
-
-  <!-- Lightbox -->
-  <div class="lightbox" id="lightbox">
-    <button class="lightbox-close" aria-label="Close">&times;</button>
-    <button class="lightbox-nav lightbox-prev" aria-label="Previous">&#10094;</button>
-    <img class="lightbox-content" src="" alt="">
-    <button class="lightbox-nav lightbox-next" aria-label="Next">&#10095;</button>
-    <div class="lightbox-caption"></div>
-  </div>
 
   <!-- Footer -->
   <footer class="site-footer">
